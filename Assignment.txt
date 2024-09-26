@@ -1,0 +1,106 @@
+#Explain the key features of Python that make it a popular choice for programming.
+Python is a programming language that is easy to understand and write, making it a popular choice among developers and programmers. 
+It is compatible with various programming paradigms, such as procedural, object-oriented, and functional programming. 
+Python has a large and active community of developers, an extensive standard library, and third-party packages for various domains. 
+
+##Describe the role of predefined keywords in Python and provide examples of how they are used in a program.
+Keywords are reserved words in Python that have special meanings and cannot be used as identifiers .
+for example-
+count=50
+while count>0:
+    print(count)
+    count=
+else:
+    print("This will be executed when the while is run succesfuly without any break")
+    for,while,else, print etc are predefined keywords 
+
+##Compare and contrast mutable and immutable obects in Python with examples
+-object whose state or value can be changed after they are created are called as mutable object or container.
+-List is type of mutable object.
+ example-
+    list_cont=[1,2,3,5+6j,"Ram",True]
+list_cont
+User can changed this list.
+-object whose state or value can not  changed after they are created are called as Immutable object or container.
+-String is a type of immmutable object
+-Does not support item assignment.   
+-for immutable object any string which we use is does not change after create.
+
+#Discuss the different types of operators in Python and provide examples of how they are used.
+Python supports various types of operators-
+1)Arithmetic operators (+, -, *, /)
+example-
+a=2
+b=3
+a+b 
+21%4
+2)comparison operators (==, !=, <, >)
+example-
+2!= 5
+2==2
+3) Logical operators (and, or, not)
+True and True=T  
+True Or True=T
+4) Assignment operators (=, +=, -=, *=, /=)
+b=12
+b-=5
+a=23
+a/=3
+
+##Explain the concept of type casting in Python with examples.
+-Type casting, also referred to as type conversion, is the process of changing one data type to another in Python. 
+Python provides built-in functions for type casting, such as int(), float(), str(), list(), tuple(), dict(), etc.
+Type casting is often necessary for performing arithmetic operations, data manipulation, and input/output operations in Python programs.
+-example
+a="3"
+b=2
+int(a)+b
+
+#How do conditional statements work in Python? Illustrate with examples.
+-Conditionals in Python are used to execute code based on the evaluation of one or more conditions.
+-Conditionals can be nested to handle multiple conditions and control different branches of execution based on the outcome of logical expressions.
+-example
+if
+if-else
+if-elif-else
+  nested if-else
+1)a=100
+if a>0:
+    print("The number is greater than 0")
+2)weather="Sunny"
+if weather=="Rainy":
+    print("I will not play cricket")
+else:
+    print("I will watch TV")
+3)a=400
+if a<400:
+    print(" a is less than 400")
+elif a>400:
+    ("  a is greater  than 400")
+else: 
+    ("  a is equal to 400")
+4)x=7
+y=2
+if x>5:
+    if y>5:
+        print("Both x and y is greater than 5")
+    else:
+        print("x is greather than 5 but y is less than 5")
+else:
+    print("x is not greater than 5")
+
+#Describe the different types of loops in Python and their use cases with examples.
+Their are two types of loop-
+1)For loop-
+“for” loops are used for iterating over a sequence of elements.
+example-
+  for i in "pwskills":
+   print(i)  
+2)While loop-
+while “while” loops are used for executing code until a specified condition becomes False.
+example-
+    n=7
+i=1
+while i<n:
+    print(i)
+    i=i+1
